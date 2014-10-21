@@ -8,7 +8,6 @@
 # Подробное описание по использованию скрипта смотрите в файле «1C82CheckDatabaseAccess.readme.txt».
 
 [CmdletBinding()]
-
 Param (
     # Имя или IP-адрес сервера приложений 1С
     [string]$serverName,
