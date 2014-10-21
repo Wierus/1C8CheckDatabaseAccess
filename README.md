@@ -67,12 +67,13 @@ Get-ExecutionPolicy
 
 | Возвращаемое значение в стандартный поток вывода | Код возврата     |
 |--------------------------------------------------|------------------|
-| 0:DatabaseAvailable                              | 0 OK             |
-| 1:DatabaseBlocked                                | 1 Warning        |
-| 2:DatabaseNotFound                               | 2 System error   |
-| 3:ServerNotFound                                 | 2 System error   |
-| 4:ServerVersionIncorrect                         | 3 Protocol error |
-| 5:COMBitWidthIncorrect                           | 2 System error   |
-| 6:COMClassUnregistered                           | 2 System error   |
-| 7:COMErrorLoading                                | 2 System error   |
-| 8:UnknownError                                   | 2 System error   |
+| 0:Database available                             | 0 OK             |
+| 1:Database blocked                               | 1 Warning        |
+| 2:Database not found                             | 2 System error   |
+| 3:Server name cannot be resolved                 | 2 System error   |
+| 4:Server not found                               | 2 System error   |
+| 5:Server version incorrect                       | 3 Protocol error |
+| 6:COM bit width incorrect                        | 2 System error   |
+| 7:COM class unregistered                         | 2 System error   |
+| 8:COM error loading                              | 2 System error   |
+| -1:Unknown error                                 | 2 System error   |
