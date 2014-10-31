@@ -100,3 +100,18 @@ Get-ExecutionPolicy
 | 7:COM class unregistered                         | 2 System error   | PowerShell script                        |
 | 8:COM error loading                              | 2 System error   | PowerShell script, VBS script            |
 | -1:Unknown error                                 | 2 System error   | PowerShell script, VBS script            |
+
+## Возможные коды ошибок, возвращаемые PRTG при работе EXE-сенсоров
+
+| PExxx | Сообщение                                     | Контекст              |
+|-------|-----------------------------------------------|-----------------------|
+| 018   | Timeout                                       | EXE sensors           |
+| 022   | System Error                                  | EXE sensors           |
+| 023   | Protocol Error                                | EXE sensors           |
+| 024   | Content Error                                 | EXE sensors           |
+| 035   | Timeout caused by wait for mutex              | Mutex for EXE Sensors |
+| 036   | Could not create mutex                        | Mutex for EXE Sensors |
+| 087   | External EXE/Script did not return a response | EXE Sensors           |
+| 092   | Please specify a username and password in the device settings (Credentials for Windows Systems) | EXE Sensors |
+| 121   | Timeout caused by wait for mutex. Consider distributing your VMware sensors across several probes! | Mutex for ESX-EXE Sensors |
+| 132   | The output of the exe file does not match the exspected format | EXE sensors |
