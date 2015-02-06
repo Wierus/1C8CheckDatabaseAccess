@@ -117,4 +117,4 @@ Get-ExecutionPolicy
 | 087   | External EXE/Script did not return a response | EXE Sensors                  |
 | 092   | Please specify a username and password in the device settings (Credentials for Windows Systems) | EXE Sensors |
 | 121   | Timeout caused by wait for mutex. Consider distributing your VMware sensors across several probes! | Mutex for ESX-EXE Sensors |
-| 132   | The output of the exe file does not match the exspected format | EXE sensors |
+| 132   | The output of the exe file does not match the expected format | EXE sensors |
